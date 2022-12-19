@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load the data
-load_model = pickle.load(open('C:/Users/Tachiii/Documents/PERMODELAN SIMULASI/lab/satrioaa/migraine_trained_model.sav', 'rb'))
+load_model = pickle.load(open('C:/Users/Satzky/Documents/KULIAH/Smt 5/Pemodelan dan Simulasi/TA/migraine_trained_model.sav' ,'rb'))
 
 # predict data
 data_to_test = [[44,3,5,1,1,3,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0]]
