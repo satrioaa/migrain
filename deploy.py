@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 import streamlit as st
 
-load_model = pickle.load(open('C:/Users/Satzky/Documents/KULIAH/Smt 5/Pemodelan dan Simulasi/TA/migraine_trained_model.sav' ,'rb'))
+load_model = pickle.load(open('migraine_trained_model.sav' ,'rb'))
 
 def migrain_prediction(data_to_test):
     knn_predict_test = load_model.predict(data_to_test)[0]
